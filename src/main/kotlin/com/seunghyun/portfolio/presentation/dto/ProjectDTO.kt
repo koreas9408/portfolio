@@ -6,7 +6,7 @@ data class ProjectDTO(
     val name: String,
     val description: String,
     val startYearMonth: String,
-    val endYearMonth: String?
+    val endYearMonth: String?,
     val details: List<ProjectDetailDTO>,
     val skills: List<SkillDTO>?
 ) {
