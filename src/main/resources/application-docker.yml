@@ -12,5 +12,5 @@ spring:
   datasource:
     url: jdbc:mysql://mysql:3306/portfolio
     username: root
-    password: ENC(FLMGotW39ppfKe1VBQGbXW8RQ/jOg7Ci)
+    password: ENC(cQ+1c/nTF5UiGVdv2y1x7R0/tkv7n4+y)
     driver-class-name: com.mysql.cj.jdbc.Driver
