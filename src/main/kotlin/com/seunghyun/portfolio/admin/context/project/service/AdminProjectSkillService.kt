@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional
 @Service
 class AdminProjectSkillService(
     private val projectRepository: ProjectRepository,
-    private val skillRepository: SkillRepository
+    private val skillRepository: SkillRepository,
     private val projectSkillRepository: ProjectSkillRepository
 ) {
 
