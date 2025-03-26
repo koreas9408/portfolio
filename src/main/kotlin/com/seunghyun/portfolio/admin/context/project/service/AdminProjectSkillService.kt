@@ -35,7 +35,7 @@ class AdminProjectSkillService(
                 record.add(skill.skill.id.toString())
                 record.add(skill.skill.name)
                 record.add(skill.createdDateTime.toString())
-                record.add(skill.modifiedDateTime.toString())
+                record.add(skill.updatedDateTime.toString())
                 records.add(record)
             }
         }
